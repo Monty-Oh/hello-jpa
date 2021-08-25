@@ -80,7 +80,6 @@ class UserServiceImplTest {
         User user = new User();
         user.setEmail("tset1");
         user.setName("test1");
-        user.setCreateDate(new Date());
 
         String email = userService.join(user);
         Optional<User> result = userService.findUserByEmail("test1");

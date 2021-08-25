@@ -1,12 +1,12 @@
-package hello.hellojpa.main;
+package hello.hellojpa.main.user;
 
 import hello.hellojpa.common.exception.DuplicateEmailException;
 import hello.hellojpa.common.exception.UserNotFoundException;
 import hello.hellojpa.domain.User;
+import hello.hellojpa.main.EMF;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,8 +1,9 @@
-package hello.hellojpa.main;
+package hello.hellojpa.main.user;
 
 import hello.hellojpa.common.exception.DuplicateEmailException;
 import hello.hellojpa.common.exception.UserNotFoundException;
 import hello.hellojpa.domain.User;
+import hello.hellojpa.main.EMF;
 
 import java.io.BufferedReader;
 import java.io.IOException;
